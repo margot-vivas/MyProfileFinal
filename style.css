@@ -1,0 +1,121 @@
+/* Style général */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Container centré avec une largeur définie */
+.container {
+    max-width: 600px;
+    width: 90%;
+    margin: 20px auto;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Style des sections */
+.section {
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fafafa;
+}
+
+.header h1 {
+    font-size: 1.8em;
+    color: #333333;
+    margin-bottom: 10px;
+}
+
+.profile-img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin: 15px 0;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Bouton principal */
+.btn-blue {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 15px;
+    color: #ffffff;
+    background-color: #007bff;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.btn-blue:hover {
+    background-color: #0056b3;
+}
+
+/* Style pour les centres d’intérêt */
+.interests {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.interest {
+    width: 80%;
+    max-width: 300px;
+    padding: 10px;
+    background-color: #eaf3ff;
+    border-radius: 6px;
+    margin: 10px auto;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.08);
+    text-align: center;
+}
+
+.interest h3 {
+    font-size: 1.2em;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+/* Conteneur pour centrer les boutons des réseaux sociaux */
+.social-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin: 20px;
+}
+
+/* Style des boutons de réseaux sociaux */
+.social-btn {
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #007bff;
+    color: #ffffff;
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: 24px;
+    transition: background-color 0.3s ease;
+}
+
+.social-btn:hover {
+    background-color: #0056b3;
+}
+
+.social-btn i {
+    font-size: 24px;
+}
